@@ -1,0 +1,45 @@
+canvas {
+    border: 1px solid;
+    position: absolute;
+    top: 0;
+    left: 50;
+}
+
+#canvasC {
+    mix-blend-mode: multiply;
+}
+
+
+#canvasA {
+z-index: 1;
+position: absolute;
+}
+
+#canvasB {
+    z-index: 2;
+    position: absolute;
+}
+
+#canvasC {
+    z-index: 3;
+    position: absolute;
+}
+
+/* #canvasD {
+    z-index: 4;
+    position: absolute;
+} */
+
+
+    
+
+.cvs_wrapper{
+    justify-content: center;
+    margin: 0 auto;
+    width: 346px;
+    height: 550px;
+}
+
+#color-picker{
+    margin-top: 16px;
+}
